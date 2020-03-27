@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QRGenPage">
+
+    <Button
+        android:id="@+id/generateQR1"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="GENERATE"
+        android:textColor="@color/colorAccent" />
+
+
+    <ImageView
+
+        android:id="@+id/bar_code"
+        android:layout_width="376dp"
+        android:layout_height="350dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="350dp"
+        android:adjustViewBounds="true">
+
+    </ImageView>
+
+    <Button
+        android:id="@+id/downloadQR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:background="@color/colorPrimary"
+        android:text="DOWNLOAD QR CODE"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/addAnotherItem"
+        android:layout_marginTop="565dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="ADD ANOTHER ITEM"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/gotoMain"
+        android:layout_width="113dp"
+        android:layout_height="102dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="660dp"
+        android:background="@drawable/home"
+        android:textColor="@color/colorAccent" />
+
+
+</RelativeLayout>
+

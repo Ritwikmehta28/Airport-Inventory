@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "26003947422",
+    "firebase_url": "https://airport-inventory-b4bb5.firebaseio.com",
+    "project_id": "airport-inventory-b4bb5",
+    "storage_bucket": "airport-inventory-b4bb5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26003947422:android:07b60d23c02ae65bbba08f",
+        "android_client_info": {
+          "package_name": "com.sapience_vision.airportinventory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26003947422-5f9ei1cs4oj9vuk34pk8k3kv97istbbs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sapience_vision.airportinventory",
+            "certificate_hash": "d6558cef3ecf8e9b72dd92c25a36aad6e6ea8e27"
+          }
+        },
+        {
+          "client_id": "26003947422-he6654tehaasj6qjffua3b1mf0i0u05p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKfjLPnf2c9PkAv8Lq4ntk8yR-eOahBGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "26003947422-he6654tehaasj6qjffua3b1mf0i0u05p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
